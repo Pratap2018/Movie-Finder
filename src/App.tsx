@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Title } from './components/Titlebar';
+import Serach from './components/Searchbar';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Title title="Movie Finder"/>
+     <Serach className="input" type="text" placeholder="Movie Name"/>
+     <p className="footer">   <img className="avator-foot" src="https://avatars.githubusercontent.com/u/39677673?v=4" alt="" /><br/> All rights reserved <a href="https://github.com/Pratap2018">@Pratap</a>  </p>
     </div>
   );
 }
