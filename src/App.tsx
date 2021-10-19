@@ -1,7 +1,7 @@
 import React from 'react';
 import { Title } from './components/Titlebar';
 import Serach from './components/Searchbar';
-import './App.css';
+import './css/App.css';
 function App() {
   return (
     <div className="App">
